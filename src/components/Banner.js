@@ -52,13 +52,13 @@ export const Banner = () => {
   }
 
   return (
-    <section className="banner" id="home">
+    <section className="banner animationuzay" id="home">
       <Container>
         <Row className="aligh-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={6} xl={7} className="animationuzaytext">
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              <div className={isVisible ? "animate__animated animate__fadeIn animationuzaytext" : ""}>
                 <h2><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Farklı Bir Üniversite Evreni"]'><span className="wrap">{text}</span></span></h2>
                 <p>UNIverse , sadece üniversite öğrencileri için mobil bir evren oluşturuyor. Kampüs arkadaşlıklarını ve üniversite etkinliklerini tek bir uygulamada buluşturduk!</p>
                 <br />

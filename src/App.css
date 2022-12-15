@@ -267,7 +267,7 @@ a:hover {
   position: relative;
   padding: 8px 10px;
   width: 200px;
-  background-color: #120030;
+  background-color: #4c15a6;
   font-size: 20px;
   margin-bottom: 16px;
   border-radius: 8px;
@@ -408,16 +408,25 @@ a:hover {
   text-align: center;
   z-index: 0;
 }
+.animationuzay {
+  margin-top: -60px;
+}
+.animationuzaytext {
+  margin-top: 80px;
+}
 .project .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
     width: 0;
     height: 100%;
-    background: #120030;;;
+    background: #4c15a6;
     top: 0;
     left: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
+}
+.phoneslayout {
+  width: 1000px;
 }
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
