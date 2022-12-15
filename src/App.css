@@ -74,6 +74,18 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
+@media (max-width:768px) {
+  nav.navbar a.navbar-brand {
+    width: 19%;
+  }
+}
+
+@media (min-width:768px) {
+  nav.navbar a.navbar-brand {
+    width: 9%;
+  }
+}
+
 p.success {
 	color: green;
 }
@@ -94,9 +106,7 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #120030;
 }
-nav.navbar a.navbar-brand {
-    width: 19%;
-}
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
