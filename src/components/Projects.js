@@ -91,7 +91,7 @@ export const Projects = () => {
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="meet">
+                    <Tab.Pane eventKey="meet" className="justify-content-center">
                       <Row>
                         {
                           projectsMeet.map((project, index) => {
