@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -60,9 +59,10 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">UNIverse'e Hoşgeldin</span>
                 <h2><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Farklı Bir Üniversite Evreni"]'><span className="wrap">{text}</span></span></h2>
                 <p>UNIverse , sadece üniversite öğrencileri için mobil bir evren oluşturuyor. Kampüs arkadaşlıklarını ve üniversite etkinliklerini tek bir uygulamada buluşturduk!</p>
+                <br />
+                <span className="kesfet"><a href="#projects"><span className="tagline">Keşfet</span></a></span>
               </div>}
             </TrackVisibility>
           </Col>

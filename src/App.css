@@ -108,12 +108,12 @@ nav.navbar.scrolled {
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
+  font-weight: 600;
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
-  opacity: 0.75;
+  opacity: 0.65;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -248,14 +248,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;
   background-size: cover;
 }
+.kesfet {
+  align-items: center;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:link, a:visited, a:hover {
+  color: white;
+}
+a:hover {
+  color: red;
+}
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
+  position: relative;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 200px;
+  background-color: #120030;
   font-size: 20px;
   margin-bottom: 16px;
+  border-radius: 8px;
   display: inline-block;
 }
 .banner h1 {
@@ -398,7 +413,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: #120030;;;
     top: 0;
     left: 0;
     z-index: -1;
@@ -407,9 +422,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
-.project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
-}
+
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
@@ -430,7 +443,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background-color: black;
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -461,9 +474,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.1em;
 }
 .proj-txtx span {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 22px;
   letter-spacing: 0.8px;
 }
 .background-image-right {

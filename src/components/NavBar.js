@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-
-import logo_last from '../assets/img/logo_last.png';
+import logo11 from '../assets/img/logo11.png';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -34,7 +33,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo_last} alt="Logo" />
+            <img src={logo11} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
