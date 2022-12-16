@@ -17,7 +17,7 @@ export const Footer = () => {
               <a href="https://www.linkedin.com/company/universeapptr" target="_blank"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://www.instagram.com/universeapptr/" target="_blank"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p className="textinfo">info@universe.com</p>
+            <p className="textinfo">info@universetr.com</p>
           
             <p className="textinfo2">Copyright 2022. All Rights Reserved</p>
           </Col>
